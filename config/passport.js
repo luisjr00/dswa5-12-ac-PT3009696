@@ -10,7 +10,7 @@ module.exports = function () {
          {
             clientID: 'b0ee32010650c88266d0',
             clientSecret: '45bd882368da4d7af71e2d3238850ea62f8d29e1',
-            callbackURL: 'http://localhost:3000/auth/github/callback',
+            callbackURL: 'https://dswa5-11-ac-pt3009696.herokuapp.com/auth/github/callback',
          },
          function (accessToken, refreshToken, profile, done) {
             Usuario.findOrCreate(
